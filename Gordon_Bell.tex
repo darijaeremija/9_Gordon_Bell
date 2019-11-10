@@ -1,11 +1,9 @@
-% !TEX encoding = UTF-8 Unicode
-
 \documentclass[a4paper]{article}
 
 \usepackage{color}
 \usepackage{url}
-\usepackage[T2A]{fontenc} % enable Cyrillic fonts
-\usepackage[utf8]{inputenc} % make weird characters work
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc} 
 \usepackage{graphicx}
 
 
@@ -14,12 +12,11 @@
 \usepackage{xcolor}
 
 \usepackage[english,serbian]{babel}
-%\usepackage[english,serbianc]{babel} %ukljuciti babel sa ovim opcijama, umesto gornjim, ukoliko se koristi cirilica
 
 \usepackage[unicode]{hyperref}
 \hypersetup{colorlinks,citecolor=green,filecolor=green,linkcolor=blue,urlcolor=blue}
 
-%\newtheorem{primer}{Пример}[section] %ćirilični primer
+
 \newtheorem{primer}{Primer}[section]
 
 \begin{document}
@@ -126,14 +123,33 @@ Belov zakon računarskih klasa \cite{bel9} je prvi put opisan 1972. godine sa po
 \appendix
 \renewcommand{\refname}{Reference}
 \begin{thebibliography}{9}
-\bibitem{bel1} Gardner Hendri, Intervju (jun 23, 2005). "Bell (Gordon) Oral History". Broj reference: X3202.2006. Muzej računarske istorije. Pristupljeno 20.5.2011. 
-\bibitem{bel2} Intervju arhiviran 2.4.2005. na Vejbek mašini kustosa Davida K. Alisona, Nacionalni muzej američke istorije, SAD, 1995.
-\bibitem{bel3}  "Book of Members, 1780-2010: Chapter B" (PDF). Američka akademina nauke i umetnosti. Pristupljeno 30.5.2011.
+\bibitem{bel1} Gardner Hendri, Intervju (jun 23, 2005). \href{https://computerhistory.org/collections/accession/102702036}{"Bell (Gordon) Oral History"} . Broj reference: X3202.2006. Muzej računarske istorije. Pristupljeno 20.5.2011. 
+\bibitem{bel2} Intervju arhiviran 2.4.2005. na \href{https://sr.wikipedia.org/wiki/Wayback_Machine}{Vejbek mašini} kustosa Davida K. Alisona, Nacionalni muzej američke istorije, SAD, 1995.
+\bibitem{bel3}  "Book of Members, 1780-2010: Chapter B" (PDF). Američka akademija nauke i umetnosti. Pristupljeno 30.5.2011.
 \bibitem{bel4} "IEEE John von Neumann Medal Recipients" (PDF). IEEE. Pristupljeno 31.12.2010.
-\bibitem{bel5}  "The National Medal of Technology and Innovation Recipients - 1991 Laureates". Ured za patente i zaštitne znakove Sjedinjenih Država. Pristupljeno 31. decembra 2010. Godine 1991. nagrada se zvala Nacionalna medalja za tehnologiju.
+\bibitem{bel5} \href{https://www.uspto.gov/learning-and-resources/ip-programs-and-awards/national-medal-technology-and-innovation-nmti}{ "The National Medal of Technology and Innovation Recipients - 1991 Laureates"} . Ured za patente i zaštitne znakove Sjedinjenih Država. Pristupljeno 31. decembra 2010. Godine 1991. nagrada se zvala Nacionalna medalja za tehnologiju.
 \bibitem{bel6} "Gordon Bell". Muzej računarske istorije. Pristupljeno 23.5.2013.
-\bibitem{bel7}  Bel, Gordon (4. april 2011.). "Out of a Closet: The Early Years of The Computer [x]* Museum". Majkrosoftov tehnički izveštaj MSR-TR-2011-44. Korporacija Majkrosoft. Pristupljeno 12.4.2011.
-\bibitem{bel8} Bel, Gordon (20. april 2014). "Timeline of Computing History: Artifacts, Computers, Inventions, People, and Events --B.C. to 2014". Research.microsoft.com.
-\bibitem{bel9}  Bel, G., "Bell’s Law for the Birth and Death of Computer Classes", Communications of the ACM, Januar 2008, tom 51, br. 1, pp 86–94.
+\bibitem{bel7}  Bel, Gordon (4. april 2011.). \href{https://www.microsoft.com/en-us/research/publication/out-of-a-closet-the-early-years-of-years-of-the-computer-x-museums/}{"Out of a Closet: The Early Years of The Computer [x]* Museum"}. Majkrosoftov tehnički izveštaj MSR-TR-2011-44. Korporacija Majkrosoft. Pristupljeno 12.4.2011.
+\bibitem{bel8} Bel, Gordon (20. april 2014). \href{https://gordonbell.azurewebsites.net/}{"Timeline of Computing History: Artifacts, Computers, Inventions, People, and Events --B.C. to 2014"} . Research.microsoft.com.
+\bibitem{bel9}  Bel, G., "Bell’s Law for the Birth and Death of Computer Classes", Communications of the ACM, Januar 2008, tom 51, br. 1, pp 86–94. 
+ 
 
 \end{thebibliography}
+
+\section{Dodatna literatura}
+\label{sec:naslov1}
+\begin{itemize}
+\item Vilkinson, Alek,\href{https://www.newyorker.com/magazine/2007/05/28/remember-this}{"Remember This?"}  Njujorker, 28. maj 2007., pp. 38–44.
+
+\end{itemize} 
+
+\section{Spoljašnje veze}
+\label{sec:naslov1}
+\begin{itemize}
+\item \href{https://web.archive.org/web/20050402125352/http://americanhistory.si.edu/collections/comphist/bell.htm}{Intervju} Intervju kustosa Davida K. Alisona, Nacionalni muzej američke istorije, SAD, 1995.
+\item \href{https://www.cbsnews.com/video/a-stitch-in-time-recorded/?lumiereId=50022828&videoId=66c07162-8bdf-11e2-9400-029118418759&cbsId=2666250&site=cbsnews}{CBS večernje vesti video intervju}  na MyLifeBits projetku, 2007.
+
+\end{itemize} 
+
+
+\end{document}
